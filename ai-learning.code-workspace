@@ -1,0 +1,26 @@
+{
+    "folders": [
+        {
+            "name": "AI Learning Journey",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "./ai-env/Scripts/python.exe",
+        "terminal.integrated.env.windows": {
+            "PYTHONPATH": "${workspaceFolder}"
+        },
+        "files.associations": {
+            "*.md": "markdown"
+        },
+        "markdown.preview.openMarkdownLinks": "inEditor"
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "ms-python.vscode-pylance", 
+            "ms-toolsai.jupyter",
+            "ms-vscode.vscode-github-copilot"
+        ]
+    }
+}

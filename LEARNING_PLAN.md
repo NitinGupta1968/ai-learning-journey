@@ -19,7 +19,7 @@
    ai-env\Scripts\activate
    
    # Install essential packages
-   pip install jupyter pandas numpy matplotlib requests openai python-dotenv
+   pip install jupyter pandas numpy matplotlib requests openai python-dotenv flask flask-cors
    ```
 
 3. **Folder Structure to Create:**
@@ -38,14 +38,19 @@
    - In `01-foundations/`, create `hello_ai.py`
    - Write a simple "Hello AI World" program
 
-### Week 2: Learn Key Libraries
+### Week 2: Learn Key Libraries & Web Interface
 **Your learning goals:**
 - Basic Python syntax and data structures
 - Introduction to pandas for data handling
 - Understanding APIs and HTTP requests
 - Working with JSON data
+- **NEW:** Flask web framework basics
+- **NEW:** Creating simple web interfaces for AI testing
 
-**Practice project:** Create a simple script that fetches weather data from a free API and displays it nicely.
+**Practice projects:** 
+1. Create a simple script that fetches weather data from a free API and displays it nicely
+2. **NEW:** Build a Flask web app to display the weather data in a browser
+3. **NEW:** Create a simple web form for testing AI responses
 
 ## 🤖 Phase 2: Simple Chatbots (Week 3-4)
 
@@ -54,6 +59,10 @@
    ```
    02-simple-chatbots/
    ├── rule-based-bot/
+   │   ├── app.py (Flask web app)
+   │   ├── chatbot.py (Bot logic)
+   │   └── templates/
+   │       └── index.html
    ├── api-chatbot/
    └── smart-chatbot/
    ```
@@ -62,6 +71,8 @@
    - Create pattern matching for common questions
    - Handle greetings, farewells, and basic Q&A
    - Add personality and context memory
+   - **NEW:** Build Flask web interface for chatbot testing
+   - **NEW:** Create chat UI with HTML/CSS/JavaScript
 
 **Key concepts to learn:**
 - String matching and regex
@@ -171,7 +182,7 @@ where python
 
 ### Package Installation:
 ```bash
-pip install jupyter pandas numpy matplotlib requests openai python-dotenv
+pip install jupyter pandas numpy matplotlib requests openai python-dotenv flask flask-cors
 pip list  # to see installed packages
 ```
 
